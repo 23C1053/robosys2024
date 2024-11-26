@@ -1,10 +1,10 @@
 # robosys2024
 ロボットシステム学授業用
 
-# plusコマンド
+# 累乗コマンド
 ![test](https://github.com/23C1053/robosys2024/actions/workflows/test.yml/badge.svg)
 
-標準入力から読み込んだ数字を足す。
+標準入力から、一つ目の数字の二つ目の数字乗をする。
 
 
 ## 必要なソフトウェア
