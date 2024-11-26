@@ -9,6 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run: nums1
-           python3 ./kadai1
+      run:
+        nums1
+        python3 ./kadai1
       
