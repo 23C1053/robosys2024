@@ -4,7 +4,7 @@
 
 import sys
 
-ans , a,b,c= 1.0 ,0,float(input()),float(input())
+ans ,a,b,c= 1.0 ,0,float(input()),float(input())
 
 while a <= c-1:
     ans *= b
