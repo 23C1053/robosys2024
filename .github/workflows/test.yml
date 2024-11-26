@@ -9,7 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run:
-        float() = 3
-        python3 ./kadai1
-      
+      run: bash -xv ./test.bash
