@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run: python3 ./kadai1
+      run: kadai1
