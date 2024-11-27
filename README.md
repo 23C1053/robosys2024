@@ -4,8 +4,14 @@
 # 累乗コマンド
 ![test](https://github.com/23C1053/robosys2024/actions/workflows/test.yml/badge.svg)
 
-標準入力から、一つ目の数字の二つ目の数字乗をする。
+標準入力から、(一つ目の数字)の(二つ目の数字)乗をする。
+                     a      の       b      乗    
 
+##使用例
+
+$echo (aの数字) (bの数字) >nums1
+$cat nums1 | tr ' ' '\n' | ./kadai1
+num1に入力したaのb乗の計算結果が出力される。
 
 ## 必要なソフトウェア
 - Python
