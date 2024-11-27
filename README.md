@@ -4,9 +4,8 @@
 # 累乗コマンド
 ![test](https://github.com/23C1053/robosys2024/actions/workflows/test.yml/badge.svg)
 
-標準入力から、(一つ目の数字)の(二つ目の数字)乗をする。  
-                     a      の       b      乗    
-
+標準入力から、(一つ目の数字**a**)の(二つ目の数字**b**)乗をする。  
+                     
 ## 使用例
 
 $echo (aの数字) (bの数字) >nums1  
