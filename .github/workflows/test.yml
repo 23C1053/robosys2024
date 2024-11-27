@@ -9,5 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run: echo 2 3 >nums1
-           cat nums1 | tr ' ' '\n' | ./kadai1
+      run: echo -e "2\n3" | ./kadai1
