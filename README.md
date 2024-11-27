@@ -8,9 +8,10 @@
                      a      の       b      乗    
 
 ##使用例
- $echo (aの数字) (bの数字) >nums1
- $cat nums1 | tr ' ' '\n' | ./kadai1
- num1に入力したaのb乗の計算結果が出力される。
+
+- $echo (aの数字) (bの数字) >nums1
+- $cat nums1 | tr ' ' '\n' | ./kadai1
+- num1に入力したaのb乗の計算結果が出力される。
 
 ## 必要なソフトウェア
 - Python
