@@ -10,4 +10,4 @@ jobs:
     - uses: actions/checkout@v3
     - name: All test
       run: echo 2 3 >nums1
-           ./kadai1
+           cat nums1 | tr ' ' '\n' | ./kadai1
