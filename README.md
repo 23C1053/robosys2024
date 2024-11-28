@@ -30,6 +30,10 @@ $cat nums1 | tr ' ' '\n' | ./kadai1
 ## テスト環境
 - Ubuntu 24.04 LTS
 
+
+## 参考
+<https://www.sejuku.net/blog/23823>
+<https://quita.com>
 ## ライセンス
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
