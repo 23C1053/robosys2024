@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: All test
-      run: echo -e "2\n3" | ./kadai1
+      run: echo -e "60\n1.60" | ./kadai1
