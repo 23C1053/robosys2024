@@ -4,10 +4,4 @@
 
 import sys
 
-ans, a, b, c= 1.0, 0, float(input()), float(input())
-
-while a <= c-1:
-    ans *= b
-    a += 1
-
-print(ans)
+print( float(input()) / (float(input()) ** 2))
