@@ -1,7 +1,7 @@
 # robosys2024
 ロボットシステム学授業用
 
-# 累乗コマンド
+#**BMI** 
 ![test](https://github.com/23C1053/robosys2024/actions/workflows/test.yml/badge.svg)
 ##### 内容
 標準入力から、(一つ目の数字**a**)の(二つ目の数字**b**)乗をする。  
