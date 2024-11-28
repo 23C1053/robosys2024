@@ -6,6 +6,6 @@ import sys
 
 value1 = float(input())
 if value1 == 1:
-    print( 13.397*float(input()) + 4.799 * float(input()) -5.677*float(input()) + 88.362)
+    print( 13.397 *float(input()) + 4.799 * float(input()) -5.677*float(input()) + 88.362)
 else:
     print( 9.247*float(input()) + 3.098 * float(input()) -4.33*float(input()) + 447.593)
