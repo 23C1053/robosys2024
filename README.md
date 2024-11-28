@@ -33,9 +33,11 @@ $cat nums1 | tr ' ' '\n' | ./kadai1
 
 ## 参考
 <https://www.sejuku.net/blog/23823>  
+基礎代謝量-高精度計算サイト
 <https://keisan.casio.jp/exec/system/1161228736>
 ## ライセンス
-- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+    - [ryuichiueda/my_slides robosys_2024](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2024)
 
 - © 2024 Masaya Kobayashi
