@@ -10,7 +10,13 @@
 ## 使用方法
 
 1 ダウンロードとインストール
-　git clone https://github.com/23C1053/
+  $'git clone https://github.com/23C1053/taisha_calc
+  $cd taisha_calc
+
+  $python3 -m venv venv
+  $source venv/bin/actvate
+
+  $pip install -r requrements.txt'
 3 nums1に性別、体重、身長、年齢を入力する。  
 &emsp;'$echo (性別) (体重) (身長) (年齢) > nums1'  
 &emsp;※性別については、男性は1、女性はそれ以外の数字を打ち込む。  
@@ -29,8 +35,7 @@
   - テスト済みバージョン: 3.7~3.11
 
 ## テスト環境
-- Python
-  - バージョン: 3.7~3.11 
+- Ubuntu 22.04 , Python 3.7~3.11 
 
 
 ## 参考
