@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# SPDX-FileCopyrightText: 2024 Masaya Kobayashi
+# SPDX-License-Identifier: BSD-3-Clause
 # Test cases
 TEST_CASES=(
   "1 60 160 19 1552.159"  # 男性 60kg 160cm 19歳 -> 期待値: 1552.159
