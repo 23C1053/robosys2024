@@ -60,7 +60,7 @@ $ cat nums1 | tr ' ' '\n' | ./taisha_calc
 ---
 
 ## テスト環境
-- Ubuntu 22.04 , Python 3.7~3.11
+- Ubuntu 20.04 , Python 3.7~3.11
 
 ---
 
