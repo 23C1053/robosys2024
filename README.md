@@ -26,7 +26,7 @@
 
 ## 実行例
 男性60kg160cm19歳の例
-'$echo 1 60 160 19 >nums1'  
+"$echo 1 60 160 19 >nums1"  
 '$cat nums1 | tr ' ' '\n' | ./taisha_calc'  
 '1552.159'  
 
