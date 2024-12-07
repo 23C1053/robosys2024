@@ -1,11 +1,27 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2024 Masaya Kobayashi
+# SPDX-License-IdentifierText: 2024 Masaya Kobayashi
 # SPDX-License-Identifier: BSD-3-Clause
 
-import sys
+if __name__ == "__main__":
+    import sys
+    try:
+        nums1 = sys.stdin.read().strip().split()
+        if len(nums1) != 4:
+            raise ValueError("数値は4つ")
 
-value1 = float(input())
-if value1 == 1:
-    print( 13.397 *float(input()) + 4.799 * float(input()) -5.677*float(input()) + 88.362)
-else:
-    print( 9.247*float(input()) + 3.098 * float(input()) -4.33*float(input()) + 447.593)
+        value1 = float(nums1[0])
+        value2 = float(nums1[1])
+        value3 = float(nums1[2])
+        value4 = float(nums1[3])
+
+        if value1 == 1:
+            result = 13.397 * value2 + 4.799 * value3 - 5.677 * value4 + 88.362
+        else:
+            result = 9.247 * value2 + 3.098 * value3 - 4.33 * value4 + 447.593
+
+        print(result)
+    except ValueError as e:
+        print(f"無効な入力: {e}")
+    except Exception as e:
+        print(f"予期せぬエラー: {e}")
+
