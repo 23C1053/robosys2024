@@ -10,7 +10,7 @@
 ## 使用方法
 
 1 ダウンロードとインストール
-  $'git clone https://github.com/23C1053/taisha_calc
+  '$git clone https://github.com/23C1053/taisha_calc
   $cd taisha_calc
 
   $python3 -m venv venv
