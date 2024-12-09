@@ -20,15 +20,15 @@ b_r="1415.823"
 
 out=$(echo "1 2 3" | ./taisha_calc)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = f"{e}" ] || ng "$LINENOi"
+[ "${out}" = "４つ入力" ] || ng "$LINENOi"
 
 out=$(echo "1 2 3 a" | ./taisha_calc)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = f"{e}" ] || ng "$LINENO"
+[ "${out}" = "数値を入力" ] || ng "$LINENO"
 
 out=$(echo "" | ./taisha_calc)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = f"{e}" ] || ng "$LINENO"
+[ "${out}" = "４つ入力" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
 exit $res
