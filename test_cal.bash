@@ -19,17 +19,16 @@ b_r="1415.823"
 [ "${out}" = "${b_r}" ] || ng "$LINENO"
 
 out=$(echo "1 2 3" | ./taisha_calc)
-[ "$?" = 1 ] || ng "$LINENO"
+[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo "1 2 3 a" | ./taisha_calc)
-[ "$?" = 1 ] || ng "$LINENO"
+[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
 out=$(echo "" | ./taisha_calc)
-[ "$?" = 1 ] || ng "$LINENO"
+[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "" ] || ng "$LINENO"
 
-[ "$res" = 0 ] && echo ok
-
+[ "${res}" = 0 ] && echo OK
 exit $res
