@@ -17,8 +17,8 @@
 ```bash
 $ git clone https://github.com/23C1053/robosys2024
 $ cd robosys2024  
-$ python3 -m venv venv  　　 - 仮想環境を作成 　
-$ source venv/bin/activate   - 仮想環境をアクティベート　　
+$ python3 -m venv venv  　　 (仮想環境を作成) 　
+$ source venv/bin/activate   (仮想環境をアクティベート)　　
 ```
 
 ### 2. 入力データの準備
