@@ -21,6 +21,6 @@ if __name__ == "__main__":
 
         print(result)
     except ValueError as e:
-        print(f"数値を入力")
-    except Exception as e:
         print("４つ入力")
+    except Exception as e:
+        print("数値を入力")
