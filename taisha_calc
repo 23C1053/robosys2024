@@ -7,7 +7,7 @@ if __name__ == "__main__":
     try:
         nums1 = sys.stdin.read().strip().split()
         if len(nums1) != 4:
-            raise ValueError("1")
+            raise ValueError("")
 
         value1 = float(nums1[0])
         value2 = float(nums1[1])
