@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 # SPDX-FileCopyrightText: 2024 Masaya Kobayashi
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -20,7 +20,7 @@ b_r="1415.823"
 
 out=$(echo "1 2 3" | ./taisha_calc)
 [ "$?" = 1 ]      || ng "$LINENO"
-[ "${out}" = "４つ入力" ] || ng "$LINENOi"
+[ "${out}" = "４つ入力" ] || ng "$LINENO"
 
 out=$(echo "1 2 3 a" | ./taisha_calc)
 [ "$?" = 1 ]      || ng "$LINENO"
