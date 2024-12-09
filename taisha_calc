@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# SPDX-License-IdentifierText: 2024 Masaya Kobayashi
+# SPDX-LicenseCopyrightText: 2024 Masaya Kobayashi
 # SPDX-License-Identifier: BSD-3-Clause
 
 if __name__ == "__main__":
@@ -19,8 +19,12 @@ if __name__ == "__main__":
         else:
             result = 9.247 * value2 + 3.098 * value3 - 4.33 * value4 + 447.593
 
-        print(result)
+        print(f"{result:.3f}")
+        sys.exit(0)
     except ValueError as e:
-        print("４つ入力")
+        print(f"無効な入力: {e}")
+        sys.exit(1)
     except Exception as e:
-        print("数値を入力")
+        print(f"無効な入力: {e}")
+        sys.exit(1)
+
