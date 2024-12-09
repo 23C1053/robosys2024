@@ -24,4 +24,3 @@ if __name__ == "__main__":
         print(f"無効な入力: {e}")
     except Exception as e:
         print(f"予期せぬエラー: {e}")
-
