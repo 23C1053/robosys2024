@@ -15,13 +15,10 @@
 ### 1. ダウンロードとインストール
 以下のコマンドを順に実行してください。
 ```bash
-$ git clone https://github.com/23C1053/taisha_calc
-$ cd taisha_calc
-
-$ python3 -m venv venv
-$ source venv/bin/activate
-
-$ pip install -r requirements.txt
+$ git clone https://github.com/23C1053/robosys2024
+$ cd robosys2024  
+$ python3 -m venv venv  　　 - 仮想環境を作成 　
+$ source venv/bin/activate   - 仮想環境をアクティベート　　
 ```
 
 ### 2. 入力データの準備
